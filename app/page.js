@@ -23,7 +23,7 @@ export default function Home() {
           
       */}
       {/* <Form /> Uncomment <Form /> if you are going after the bonus */}
-      <Form setNumberOfDogs={setDogs}></Form>
+      {/* <Form setNumberOfDogs={setDogs}></Form> */}
       {/* This page should receive the images array */}
       <DogList dogsList={dogs} />
     </div>
